@@ -1,0 +1,153 @@
+@import url(style.css);
+/* line 9, ../sass/main.scss */
+.h6, button, #nav a, .into h3 {
+  font-size: 16.8px;
+}
+
+/* line 12, ../sass/main.scss */
+h1 {
+  font-size: 28px;
+}
+
+/* line 16, ../sass/main.scss */
+body {
+  font-family: 'Roboto';
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #E9E6E1;
+}
+
+/* line 23, ../sass/main.scss */
+button {
+  color: white;
+  background-color: #f3b81e;
+  border: 1px solid white;
+  padding: 5px 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+/* line 31, ../sass/main.scss */
+button:hover {
+  background-color: #999;
+}
+
+/* line 36, ../sass/main.scss */
+#logo {
+  float: left;
+  font-weight: 700;
+}
+
+/* line 41, ../sass/main.scss */
+#nav {
+  width: 96%;
+  padding: 20px 2%;
+  background-color: rgba(243, 184, 30, 0.9);
+  overflow: auto;
+  color: white;
+  position: fixed;
+  z-index: 10;
+}
+/* line 49, ../sass/main.scss */
+#nav ul {
+  float: right;
+}
+/* line 52, ../sass/main.scss */
+#nav li {
+  float: left;
+  padding-right: 20px;
+}
+/* line 56, ../sass/main.scss */
+#nav a {
+  display: block;
+  color: white;
+  line-height: 25px;
+  text-decoration: none;
+}
+/* line 62, ../sass/main.scss */
+#nav a:hover {
+  text-decoration: underline;
+}
+
+/* line 68, ../sass/main.scss */
+.banner {
+  border-width: 0px;
+  margin-bottom: 30px;
+}
+/* line 69, ../sass/main.scss */
+.banner img {
+  width: 100%;
+}
+/* line 73, ../sass/main.scss */
+.banner .flex-control-nav {
+  bottom: 15px;
+}
+
+/* line 78, ../sass/main.scss */
+#content {
+  padding: 30px 30px;
+}
+
+/* line 82, ../sass/main.scss */
+.into {
+  overflow: auto;
+  color: #999;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+/* line 87, ../sass/main.scss */
+.into .intro-box {
+  float: left;
+  padding: 0 1%;
+  text-align: center;
+  width: 23%;
+}
+/* line 93, ../sass/main.scss */
+.into h3 {
+  padding: 30px 0 15px 0;
+  letter-spacing: 1px;
+}
+/* line 98, ../sass/main.scss */
+.into p {
+  line-height: 1.4;
+}
+/* line 102, ../sass/main.scss */
+.into .icon {
+  display: inline-block;
+  font-size: 40px;
+  border: 3px #666 solid;
+  padding: 20px;
+  border-radius: 43px;
+  color: #666;
+}
+
+/* line 112, ../sass/main.scss */
+.gallery {
+  overflow: auto;
+  margin: 40px 0 30px 0;
+  text-align: center;
+}
+/* line 116, ../sass/main.scss */
+.gallery h1 {
+  color: #666;
+  padding-bottom: 30px;
+}
+/* line 120, ../sass/main.scss */
+.gallery li {
+  float: left;
+  width: 19%;
+  padding: 0.5%;
+}
+/* line 124, ../sass/main.scss */
+.gallery li img {
+  width: 100%;
+}
+
+/* line 129, ../sass/main.scss */
+#footer {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #f3b81e;
+  color: white;
+}
