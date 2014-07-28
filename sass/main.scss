@@ -1,0 +1,135 @@
+@import "style.css";
+@import "compass";
+
+
+$mainColor: #F3B81E;
+$white: #fff;
+$basicFont: 14px;
+
+.h6{
+	font-size: $basicFont*1.2;
+}
+h1{
+	font-size: $basicFont*2;
+}
+
+body{
+	font-family: 'Roboto';
+	font-size: $basicFont;
+	@include box-sizing(border-box);
+	background-color: #E9E6E1;
+}
+
+button{
+	color: $white;
+	background-color: $mainColor;
+	border: 1px solid $white;
+	padding: 5px 15px;
+	margin-top: 15px;
+	@extend .h6;
+	cursor: pointer;
+	&:hover{
+		background-color: #999;
+	}
+}
+
+#logo{
+	float: left;
+	font-weight: 700;
+}
+
+#nav{
+	width: 96%;
+	padding: 20px 2%;
+	background-color: rgba($mainColor,0.9);
+	overflow: auto;
+	color: $white;
+	position: fixed;
+	z-index: 10;
+	ul{
+		float: right;
+	}
+	li{
+		float: left;
+		padding-right: 20px;
+	}
+	a{
+		display: block;
+		color: $white;
+		line-height: 25px;
+		text-decoration: none;
+		@extend .h6;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+.banner{
+	img{
+		width: 100%;
+	}
+	border-width: 0px;
+	.flex-control-nav{
+		bottom: 15px;
+	}
+	margin-bottom: 30px;
+}
+#content{
+	padding: 30px 30px;
+	
+}
+.into{
+	overflow: auto;
+	color: #999;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 40px;
+	.intro-box{
+		float: left;
+		padding: 0 1%;
+		text-align: center;
+		width: 23%
+	}
+	h3{
+		padding: 30px 0 15px 0;
+		@extend .h6;
+		letter-spacing: 1px;
+	}
+	p{
+		line-height: 1.4;
+
+	}
+	.icon{
+		display: inline-block;
+		font-size: 40px;
+		border: 3px #666 solid;
+		padding: 20px;
+		border-radius: 43px;
+		color: #666;
+	}
+}
+
+.gallery{
+	overflow: auto;
+	margin: 40px 0 30px 0;
+	text-align: center;
+	h1{
+		color: #666;
+		padding-bottom: 30px
+	}
+	li{
+		float: left;
+		width: 19%;
+		padding: 0.5%;
+		img{
+			width: 100%;
+		}
+	}
+}
+#footer{
+	text-align: center;
+	padding: 30px 0;
+	background-color: $mainColor;
+	color: $white;
+}
+
